@@ -56,7 +56,6 @@ class App extends React.Component {
       //控制台显示对象标签
       if(prediction.class == 'cup'){
         console.log(prediction.class);
-
       }
       
       ctx.fillText(prediction.score.toFixed(2), x, y + height - textHeight);
